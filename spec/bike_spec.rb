@@ -5,6 +5,6 @@ describe Bike do
 
   it 'is working' do
     #bike = Bike.new
-    expect(Bike.new).to be_working
+    expect(subject).to be_working
   end
 end
