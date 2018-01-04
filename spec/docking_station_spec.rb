@@ -7,4 +7,8 @@ describe DockingStation do
   it 'bike can be docked' do
     expect(subject).to respond_to(:dock_bike).with(1).argument
   end
+
+  it 'bike exists' do
+    expect{subject.release_bike}.to raise_error("No bike available")
+  end
 end
