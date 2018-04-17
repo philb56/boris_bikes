@@ -1,4 +1,31 @@
-# Boris Bikes Project
+# Makers Academy Week 1 - Boris Bikes Project
+
+## The Challenge
+
+Let's go back several years, to the days when there were no Boris Bikes. Imagine that you're a junior developer. Transport for London, the body responsible for delivery of a new bike system, come to you with a plan: a network of docking stations and bikes that anyone can use. They want you to build a program that will emulate all the docking stations, bikes, and infrastructure (repair staff, and so on) required to make their dream a reality.
+
+To help structure your work, here are 22 challenges. They all build on one another. They require you to research things, to get stuck, and to find your own solutions. This is on purpose. A developer is a 'knowledge worker' - someone who will spend the majority of their time researching and learning how to solve problems. It'll suck for a bit, but with practice, you will get faster: and there's no better feeling than finding the answer to a problem that's been standing in your way for hours.
+
+## Overview
+
+This is a simple example where a bike object can be docked and released from a docking station. Mimicking Boris Bikes.
+
+If all the docks in the station are full then no further bikes can be added. Conversely if the docking station is empty no bikes can be removed
+
+
+## What next
+
+Functionality should be added to cater for broken bikes eg if a bike is broken it can only be removed by an engineer.
+
+## What could have been done better
+
+This work was done in week 1 in the course and not completed due to time constraints/competing requirements.
+
+* The unit tests in docking_station are not independant of the Bike object - a mocked Bike object should have been injected.
+
+* There are no feature tests - perhaps due to time constraints
+
+* At this point in development the Bike object is not really necessary as it only has one method which is not used - I was thinking ahead but the implementation to date would have been simpler without it.
 
 ## Setting up bikes docking stations and users
 ```
