@@ -27,7 +27,7 @@ This work was done in week 1 in the course and not completed due to time constra
 
 * At this point in development the Bike object is not really necessary as it only has one method which is not used - I was thinking ahead but the implementation to date would have been simpler without it.
 
-## Setting up bikes docking stations and users
+## Setting up 
 ```
 git clone https://github.com/philb56/boris_bikes2.git
 ```
